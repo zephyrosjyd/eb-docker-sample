@@ -2,6 +2,14 @@
 
 ### EB CLI 명령 참조
 https://docs.aws.amazon.com/ko_kr/elasticbeanstalk/latest/dg/eb3-cmd-commands.html
+
+### init
+```
+eb init docker-sample \
+--region ap-northeast-2 \
+--platform docker \
+--keyname aws-eb-sample-test
+```
 ### develop env
 ```
 eb create eb-docker-dev-env \
